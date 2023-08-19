@@ -1,0 +1,77 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    /* background-color: rgb(250, 247, 247) */
+}
+.nav-bar{
+    background-color: black;
+    
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 30px;
+    padding: 20px;
+    top:0px;
+    font-size: 17px;
+    position: sticky;
+}
+.p-tags>a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+.section-1{
+    /* position: relative; */
+    margin-left: 450px;
+    margin-top: 40px;
+    border: 2px solid lightgray;
+    margin-right: 300px;
+        
+}
+table,th,td{
+    border: 1px solid lightgray;
+    border-collapse: collapse;
+    
+
+}
+table{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    
+}
+td,th{
+    padding: 30px;
+    padding-left: 8px;
+}
+td>div{
+    border: 1px solid lightgray;
+    margin-top: 20px;
+}
+td>div>p{
+    border-bottom: 1px solid lightgray;
+    padding: 7px;
+}
+.section-2{
+    padding: 5px;
+    margin-left: 450px;
+    margin-top: 40px;
+    border: 2px solid lightgray;
+    margin-right: 300px;     
+}
+#register>label,#register>input{
+    margin: 5px;
+}
+input{
+    border: 1px solid lightgray;
+    width: 95%;
+    padding: 5px;
+    
+}
+
+#btn{
+    background-color: black;
+    color: white;
+   width: 96%;
+   padding: 5px;
+}
